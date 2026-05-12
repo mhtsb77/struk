@@ -55,3 +55,16 @@ print("\n--- Setelah Penambahan Node (10, 90, 65) ---")
 print("Preorder :", end=" "); tree.preorder(tree.root); print()
 print("Inorder  :", end=" "); tree.inorder(tree.root); print()
 print("Postorder:", end=" "); tree.postorder(tree.root); print()
+print("50")
+print("        /    \\")
+print("      30      70")
+print("     /  \\    /  \\")
+print("    20  40  60  80")
+print("   /         \\    \\")
+print("  10         65   90")
+"""
+ANALISIS PERUBAHAN:
+1. Inorder: Tetap menampilkan urutan angka dari terkecil ke terbesar (terurut).
+2. Struktur: Pohon menjadi lebih dalam dengan tambahan daun (leaf) baru.
+3. Efisiensi: Penambahan 10, 90, dan 65 mengikuti jalur pencarian logaritmik.
+"""
